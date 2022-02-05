@@ -10,8 +10,8 @@ services:
       - CHOKIDAR_USEPOLLING=true
     ports:
       - 3030:3000
-    volumes:
-      - ./application:/application
+    # volumes:
+    #   - ./application:/application
     networks:
       - task-shop-react
 

@@ -8,4 +8,4 @@ ADD ./application ${WORKDIR}
 
 RUN yarn install
 
-# CMD ["yarn", "start"]
+CMD ["yarn", "start"]

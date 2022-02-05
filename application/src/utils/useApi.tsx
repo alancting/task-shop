@@ -1,4 +1,6 @@
+import { Feedback } from "../models/Feedback";
 import { Item } from "../models/Item";
+import { PaymentDetails } from "../models/PaymentDetails";
 
 function useApi() {
   function fetchItems(): Array<Item> {
@@ -10,8 +12,18 @@ function useApi() {
     ]
   }
 
+  function makePayment(paymentDetails: PaymentDetails): boolean {
+    return true
+  }
+
+  function submitFeedback(feedback: Feedback): boolean {
+    return true
+  }
+
   return {
-    fetchItems
+    fetchItems,
+    makePayment,
+    submitFeedback
   }
 }
 
