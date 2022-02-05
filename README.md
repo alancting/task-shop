@@ -8,6 +8,8 @@ Basic shop page, it should allow
 - Complete a checkout form where they can enter a few personal details and their payment method
 - Receive some feedback once the form has been submitted. This can be mocked, you don’t need to build a backend.
 
+## Requirement
+1. [Docker](https://docs.docker.com/get-docker/)
 ## How to Start
 ### Start with docker
 1. Build and running with docker
