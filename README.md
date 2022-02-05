@@ -18,5 +18,5 @@ Basic shop page, it should allow
   $ docker-compose up
   ```
 2. Visit the application via browser
-Go to [http://loclahost:3030](http://loclahost:3030)
+Go to [http://localhost:3030](http://localhost:3030)
 
